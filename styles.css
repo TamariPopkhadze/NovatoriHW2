@@ -1,0 +1,403 @@
+body{
+    width: 100vh;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    align-items: flex-start;
+}
+.headerLeftDiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 45px;
+    gap: 205px;
+    
+    
+
+}
+.logoNameDiv{
+    display: flex;
+    align-items: center;
+}
+.headerRightDiv{
+    width: 1316px;
+    height: 1374px;
+    margin-left:1200px;
+    position: absolute;
+  
+    
+}
+.vector1{
+    display: inline-block;
+    position: relative;
+    left: -600px;
+    top: -10px;
+  
+    
+}
+.vector2{
+    display: inline-block;
+    position: relative;
+    left: -400px;
+    top: -1400px;
+    
+    
+    
+}
+.vector3{
+    display: inline-block;
+    position: relative;
+    left: -350px;
+    top: -2800px;
+    
+}
+.vector4{
+    position: relative;
+    top: -4010px;
+}
+.menuBarDiv{
+    position: relative;
+    top: -5350px;
+    left: -300px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 50px;
+    
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+u{
+    margin-left: 20px;
+    color: rgb(236, 229, 229);
+    cursor: pointer;
+}
+.signDiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.signUpDiv{
+    width: 147px;
+    height: 48px;
+    border-radius: 52px;
+    background-color: white;
+    text-align: center;
+}
+.menDiv{
+    display: flex;
+    width: 442px;
+    height: 745px;
+    padding-left: 300px;
+}
+.man{
+    margin-left: -260px;
+    
+}
+img[alt = 'first']{
+    z-index: 1;
+}
+.textInformationDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+.title{
+color: #2278D4;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 54px;
+width: 123px;
+height: 54px;
+}
+.remaind{
+color: #191B21;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 54px;
+width: 553px;
+height: 162px;
+}
+.info{
+color: #191B21;
+font-family: "Azo Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px;
+width: 511px;
+height: 96px;
+
+}
+.greenButtonDiv{
+    width: 147px;
+    height: 48px;
+    background-color: #22A75D;
+    border-radius: 52px;
+    margin-top: -180px;
+}
+.moreInfo{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    
+}
+
+.firstSectionDiv{
+    padding-left: 150px;
+    margin-top: 500px;
+    width: 1900px;
+    height: 1212px;
+    background-image: url("images/Union.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    gap: 80px;
+
+}
+.childDiv{
+    width: 777px;
+    height: 880px;
+    background-color: gainsboro;
+    border-radius: 25px;
+    opacity: 95%;
+    position: relative;
+    top: -400px;
+    padding-top: 134px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.creatorMan{
+    width: 273px;
+    height: 573px;
+    z-index: 1;
+}
+h3{
+    font-size: 36px;
+    font-weight: 500px;
+    line-height: 54px;
+    color: #191B21;
+}
+.creators{
+    color: #22A75D;
+}
+.holders{
+    color: #2278D4;
+}
+
+.infoForCreators{
+    width: 644px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #191B21;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+.containerDiv{
+    display: flex;
+    align-items:first baseline;
+    position: relative;
+    top: 700px;
+    left: -1400px;
+    gap: 175px;
+}
+.questionDiv{
+    display: flex;
+    align-items: first baseline;
+    gap: 80px;
+}
+.logo{
+    width: 55px;
+    height: 35px;
+}
+h4{
+    color: #F7F5F9;
+    font-size: 48px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 54px;
+    text-align: left;
+}
+.answerDiv{
+    width: 600px;
+    height: 250px;
+    overflow-y: scroll;
+}
+.answerArticle{
+font-size: 16px;
+font-weight: 500;
+font-style: normal;
+line-height: 24px;
+opacity: 0.6;
+color: white;
+}
+.third{
+ margin-top: 1750px;
+ margin-left: 100px;
+ position: absolute;
+}
+.thirdSectionContainerDiv{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+.eachDiv{
+    display: flex;
+    align-items: first baseline;
+    gap: 7px;
+    height: 34px;
+    width: 400px;
+}
+.number{
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 34px;
+    color: #2278D4;
+   
+}
+.idea{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    color: #191B21;
+    opacity: 0.7;
+}
+.juniorContainer{
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+.paperBoat{
+    width: 245px;
+    height: 135px;
+    transform: rotate(-2deg);
+    position: relative;
+    top: 50px;
+    left: 1450px;
+}
+.fourthSection{
+    background-image: url("images/Subtract.svg");
+    width: 2000px;
+    height: 1618px;
+    margin-top: 2000px;
+    display: flex;
+    align-items: center;
+    gap: 167px;
+    position: relative;
+    z-index: 1;
+    
+    
+
+}
+.firstDiv{
+    width: 644px;
+    margin-left: 173px;
+   ;
+
+}
+.fourthTitle{
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 500;
+    color: #191B21;
+   left: 0px;
+}
+.fourthArticle{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 300;
+    opacity: 60%;
+    
+}
+b{
+    font-weight: 500;
+    color: #050505;
+    
+}
+.secondDiv{
+    width: 777px;
+    height: 900px;
+    border-radius: 25px;
+    background-color: #F7F5F9;
+    position: absolute;
+    left: 1000px;
+ 
+}
+.smallCloudy{
+    position: relative;
+    top: 85px;
+    left: 97px;
+  
+    
+}
+.rocket{
+  
+    width: 600px;
+    height: 746px;
+    position: relative;
+    
+    left: -150px;
+    
+}
+.bigCloudy{
+    position: relative;
+    left: 450px;
+    top: -400px;
+}
+.fifthSection{
+   margin-top: -250px;
+    background: linear-gradient( 45deg,#ED374D , #FA793F  , #F7F651 );
+    width: 2000px;
+    height: 1700px;
+    position: absolute;
+    z-index: 0;
+    
+   
+}
+.thirdCloudy{
+    position: relative;
+    top: 220px;
+    left: 45px;
+}
+h5{
+    width: 333px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+    color: #F7F5F9;
+    position: relative;
+    left: 800px;
+    top: 20px;
+}
+.secondRocket{
+    width: 242.927px;
+    height: 395.49px;
+    transform: rotate(-80deg);
+    position: relative;
+    left: 1500px;
+    top: -300px;
+}
