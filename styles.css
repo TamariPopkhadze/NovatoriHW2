@@ -378,8 +378,8 @@ b{
 }
 .thirdCloudy{
     position: relative;
-    top: 220px;
-    left: 45px;
+    top: 155px;
+    left: 20px;
 }
 h5{
     width: 333px;
@@ -390,7 +390,7 @@ h5{
     color: #F7F5F9;
     position: relative;
     left: 850px;
-    top: 20px;
+    top: -30px;
 }
 .secondRocket{
     width: 242.927px;
@@ -398,7 +398,7 @@ h5{
     transform: rotate(-80deg);
     position: relative;
     left: 1700px;
-    top: -260px;
+    top: -360px;
 }
 .phaseDiv{
     display: flex;
@@ -415,7 +415,7 @@ h5{
     background-position-x:center;
     position: relative;
     left: 200px;
-    top: -450px;
+    top: -550px;
 }
 .phaseDiv2{
     width: 511px;
@@ -428,7 +428,7 @@ h5{
     background-color: #FFF;
     position: relative;
     left: 750px;
-    top: -920px;
+    top: -1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -445,7 +445,7 @@ h5{
     background-position-x: center;
     position: relative;
     left: 1300px;
-    top: -1620px;
+    top: -1720px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -499,7 +499,7 @@ h5{
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: -1400px;
+    top: -1600px;
 }
 .lastDivP1{
     font-size: 36px;
@@ -514,8 +514,78 @@ h5{
 }
 footer{
     width: 1920px;
-    height: 729px;
-    background-image: url("images/Subtract.svg");
-    margin-top: 1000px;
+    height: 760px;
+    background-image: url("images/Union.svg");
+    margin-top: 1010px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
     
+    
+}
+.footerDiv1{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 1000px;
+    top: 500px;
+}
+.footerDiv1P{
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.slash{
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 700;
+    color: #FFFFFF;
+    opacity: 16%;
+}
+.firstContainer{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 480px;
+    left: 50px;
+}
+.secondContainer{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    left: 750px;
+    top: 340px;
+}
+.thirdContainer{
+    display: flex;
+    position: relative;
+    left: 1550px;
+    top: 300px;
+}
+.firstContainerH5{
+    position: relative;
+    left: 10px;
+    top: 1px;
+
+}
+.socMedia{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px  solid white;
+}
+.eachSoc{
+    width: 20px;
+    height: 20px;
+}
+.lastP{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #FFFFFF;
 }
